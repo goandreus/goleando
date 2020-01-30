@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main(){
-	var nombre string
-	nombre = "andres"
+	nombre, apellido := "andres", "chavez"
 
-	fmt.Println(nombre)
+	nombre, edad := "Andrew", 25
+
+	fmt.Println(nombre, apellido, edad)
 }
