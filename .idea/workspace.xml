@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f0574d-f7c8-484e-a136-5083d491573e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constantes/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/mian.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.5/libexec" />
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -38,16 +37,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="goleando" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build goleando/constantes">
     <configuration name="go build goleando" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goleando" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -57,18 +47,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+    <configuration name="go build goleando/constantes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goleando" />
       <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/constantes/main.go" />
+      <package value="goleando/constantes" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build goleando/constantes" />
         <item itemvalue="Go Build.go build goleando" />
       </list>
     </recent_temporary>
@@ -85,25 +75,43 @@
       </list>
     </option>
   </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96f0574d-f7c8-484e-a136-5083d491573e" name="Default Changelist" comment="" />
+      <created>1580686205335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580686205335</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="907" height="239" key="GridCell.Tab.0.bottom" timestamp="1580403860363">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state x="440" y="170" key="#GOROOT" timestamp="1580686234500">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="440" y="170" key="#GOROOT/1680.23.1366.745/0.23.1680.963@0.23.1680.963" timestamp="1580686234500" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1580688624593">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="907" height="239" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1580403860363" />
-    <state width="907" height="239" key="GridCell.Tab.0.center" timestamp="1580403860362">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/1680.23.1366.745/0.23.1680.963@0.23.1680.963" timestamp="1580688624593" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1580688624592">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="907" height="239" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1580403860362" />
-    <state width="907" height="239" key="GridCell.Tab.0.left" timestamp="1580403860362">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center/1680.23.1366.745/0.23.1680.963@0.23.1680.963" timestamp="1580688624592" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1580688624592">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="907" height="239" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1580403860362" />
-    <state width="907" height="239" key="GridCell.Tab.0.right" timestamp="1580403860362">
-      <screen x="0" y="23" width="1680" height="973" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left/1680.23.1366.745/0.23.1680.963@0.23.1680.963" timestamp="1580688624592" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1580688624593">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="907" height="239" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1580403860362" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right/1680.23.1366.745/0.23.1680.963@0.23.1680.963" timestamp="1580688624593" />
   </component>
 </project>
